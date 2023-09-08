@@ -1,0 +1,116 @@
+# Data Slicing: Understanding Chunk Processing
+
+## Overview
+
+Welcome to this explanatory guide on **Data Slicing** and chunk-based data processing. This breakdown will provide a clear understanding of the code and its steps.
+
+## Step-by-Step Explanation
+
+1. **Importing the CSV Module**
+   - The code begins by importing the `csv` module, which facilitates reading and writing CSV files.
+
+2. **Processing Chunks with `process_chunk(chunk)`**
+   - The `process_chunk` function takes a list of student data rows called `chunk`.
+   - Within this function, the total score and the number of students in the chunk are calculated.
+   - By dividing the total score by the number of students, the average score is determined and returned.
+
+3. **Main Function and Chunk Size**
+   - The `main()` function is pivotal, defining a chunk size of 100.
+   - This indicates that data will be processed in groups of 100 rows.
+   - The `file_path` variable holds the directory where the data resides.
+
+4. **Opening and Reading the CSV File**
+   - Using the `with open('student_scores.csv', 'r') as csvfile:` statement, the CSV file named 'student_scores.csv' is opened in read mode.
+   - A `csv.DictReader` object is created to treat the first row as column headers and subsequent rows as dictionaries.
+
+5. **Understanding Column Names**
+   - The `print(reader.fieldnames)` line provides insights into the column names present in the CSV file.
+
+6. **Chunk Initialization**
+   - The `chunk` list is initialized to temporarily store rows for the current chunk.
+   - `chunk_count` tracks the current chunk number.
+
+7. **Iterating Through Rows**
+   - Each row in the CSV file is processed using a loop.
+   - Rows are added to the `chunk` list.
+   - Once the chunk reaches the specified size, the average score is calculated using `process_chunk()`.
+   - The chunk number and its average score are printed with precision.
+
+8. **Resetting and Moving On**
+   - After processing a chunk, the `chunk` list is reset.
+   - The `chunk_count` is incremented to move to the next chunk.
+
+9. **Handling Remaining Rows**
+   - Once the loop completes, any remaining rows in the last chunk are processed similarly.
+   - Their results are printed.
+
+10. **Execution and Script Import**
+    - The final line, `if __name__ == '__main__':`, ensures that the `main()` function is executed only when the script is run directly and not when it's imported as a module.
+
+## Summary
+
+The provided code efficiently processes student score data from a CSV file, organizing it into manageable chunks, calculating average scores, and presenting results. Its design is tailored to handling large datasets, eliminating memory constraints.
+
+Feel free to explore and adapt this approach to your specific data processing needs!
+
+
+PSEUDOCODE:-
+
+# Import the csv module for reading CSV files
+
+# Define a function to process a chunk of student scores and calculate the average score
+function process_chunk(chunk):
+    total_score = 0
+    num_students = 0
+    
+    # Iterate through each student's data in the chunk
+    for each row in chunk:
+        # Convert the score to a float and add it to the total score
+        total_score += convert_to_float(row['Scores'])
+        num_students += 1  # Count the number of students in the chunk
+        
+    # Calculate and return the average score for the chunk
+    return total_score / num_students
+
+# Define the main function
+function main():
+    chunk_size = 100  # Define the size of each data chunk
+    file_path = r'C:\Users\Ayushi Tripathi\OneDrive\Documents\Github\DataSliceMaster'
+    
+    # Open the CSV file for reading
+    open 'student_scores.csv' as csvfile
+    create a CSV reader for csvfile
+    print the column names from the reader
+    
+    # Initialize variables to manage data chunks
+    chunk = []  # Initialize an empty list to hold the current chunk of data
+    chunk_count = 0  # Initialize a counter for the current chunk
+
+    # Iterate through each row in the CSV file
+    for each row in reader:
+        # Add the row to the current chunk
+        append row to chunk
+        
+        # Check if the chunk has reached the desired size
+        if length of chunk is equal to chunk_size:
+            # Calculate the average score for the current chunk
+            average_score = process_chunk(chunk)
+            # Print the chunk number and its average score with 2 decimal places
+            print "Chunk " + (chunk_count + 1) + ": Average Score = " + format(average_score, '.2f')
+            
+            # Reset the chunk and move to the next one
+            clear chunk
+            increment chunk_count
+
+    # Process any remaining data in the last chunk
+    if length of chunk is greater than 0:
+        average_score = process_chunk(chunk)
+        print "Chunk " + (chunk_count + 1) + ": Average Score = " + format(average_score, '.2f')
+
+# Execute the main function when the script is run
+if script is run directly:
+    call main()
+
+
+
+

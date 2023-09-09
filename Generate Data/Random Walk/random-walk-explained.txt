@@ -1,0 +1,21 @@
+I've created a Python class called RandomWalk, which is meant to generate random walks. 
+These random walks are a series of steps, each determined by a random choice of direction (left or right, up or down). 
+They're used in various fields, such as physics, biology, and economics, to model processes with random elements.
+
+First, I've defined an __init__ method in the class to initialize its attributes.
+In this method:
+    1. self.num_points is an optional parameter that sets the default number of points in the walk to 5000.
+    2. I created two empty lists, self.x_values and self.y_values, to store the x- and y-coordinates of each point in the walk. 
+    The walk starts at the origin (0, 0).
+
+Next, I've implemented the fill_walk() method to calculate all the points in the walk.
+In this method:
+    1. I use a while loop to continue taking steps until the walk reaches the desired length (self.num_points).
+    2. For each step, I decide:
+        Whether to move left or right (determined by x_direction).
+        How far to move horizontally (determined by x_distance).
+        Whether to move up or down (determined by y_direction).
+        How far to move vertically (determined by y_distance).
+    4. If a step goes nowhere (both x_step and y_step are 0), I reject it and continue to the next step.
+    5. I calculate the new x and y coordinates based on the previous coordinates and append these new values to the respective lists (self.x_values and self.y_values).
+    6. With this RandomWalk class and fill_walk() method, I can simulate random walks and generate the coordinates of each point in the walk.

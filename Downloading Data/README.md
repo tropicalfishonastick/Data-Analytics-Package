@@ -36,4 +36,4 @@ Welcome to my Data Visualization with Python repository! In this collection, I'm
 30. [Exercise : Recent Earthquakes](#exercise-16-8-recent-earthquakes) 🌍🌋
 31. [Exercise : World Fires](#exercise-16-9-world-fires) 🔥
 
-Feel free to explore these chapters, each of which dives into various aspects of my data visualization and analysis journey with Python. Happy exploring! 🚀📈
+Happy exploring! 🚀📈

@@ -4,36 +4,37 @@ Welcome to my Data Visualization with Python repository! In this collection, I'm
 
 ## Table of Contents 📜
 
-1. [CSV File Format](#csv-file-format) 📁
-2. [Parsing the CSV File Headers](#parsing-the-csv-file-headers) 🧩
-3. [Extracting and Reading Data](#extracting-and-reading-data) 📖
-4. [Plotting Data in a Temperature Chart](#plotting-data-in-a-temperature-chart) 🌡️
-5. [The datetime Module](#the-datetime-module) 🕒
-6. [Plotting Dates](#plotting-dates) 📅
-7. [Plotting a Longer Timeframe](#plotting-a-longer-timeframe) 📈
-8. [Plotting a Second Data Series](#plotting-a-second-data-series) 📊
-9. [Shading an Area in the Chart](#shading-an-area-in-the-chart) 🌕
-10. [Error Checking](#error-checking) ❌
-11. [Downloading Your Own Data](#downloading-your-own-data) 🌐
-12. [Exercise : Sitka Rainfall](#exercise-16-1-sitka-rainfall) ☔
-13. [Exercise : Sitka–Death Valley Comparison](#exercise-16-2-sitka-death-valley-comparison) 🌞🌡️
-14. [Exercise : San Francisco](#exercise-16-3-san-francisco) 🌉
-15. [Exercise : Automatic Indexes](#exercise-16-4-automatic-indexes) 🔄
-16. [Exercise : Explore](#exercise-16-5-explore) 🔍
-17. [Mapping Global Datasets: GeoJSON Format](#mapping-global-datasets-geojson-format) 🌍
-18. [Downloading Earthquake Data](#downloading-earthquake-data) 🌋
-19. [Examining GeoJSON Data](#examining-geojson-data) 🔍
-20. [Making a List of All Earthquakes](#making-a-list-of-all-earthquakes) 🌎
-21. [Extracting Magnitudes](#extracting-magnitudes) 📏
-22. [Extracting Location Data](#extracting-location-data) 🌐
-23. [Building a World Map](#building-a-world-map) 🗺️
-24. [Representing Magnitudes](#representing-magnitudes) 📊
-25. [Customizing Marker Colors](#customizing-marker-colors) 🎨
-26. [Other Color Scales](#other-color-scales) 🌈
-27. [Adding Hover Text](#adding-hover-text) 🖱️
-28. [Exercise : Refactoring](#exercise-16-6-refactoring) ♻️
-29. [Exercise : Automated Title](#exercise-16-7-automated-title) 🏆
-30. [Exercise : Recent Earthquakes](#exercise-16-8-recent-earthquakes) 🌍🌋
-31. [Exercise : World Fires](#exercise-16-9-world-fires) 🔥
+1. #csv-file-format📁
+2. #parsing-the-csv-file-headers 🧩
+3. #extracting-and-reading-data 📖
+4. #plotting-data-in-a-temperature-chart 🌡️
+5. #the-datetime-module 🕒
+6. #plotting-dates 📅
+7. #plotting-a-longer-timeframe 📈
+8. #plotting-a-second-data-series 📊
+9. #shading-an-area-in-the-chart 🌕
+10. #error-checking ❌
+11. #downloading-your-own-data 🌐
+12. #exercise-16-1-sitka-rainfall ☔
+13. #exercise-16-2-sitka-death-valley-comparison 🌞🌡️
+14. #exercise-16-3-san-francisco 🌉
+15. #exercise-16-4-automatic-indexes 🔄
+16. #exercise-16-5-explore 🔍
+17. #mapping-global-datasets-geojson-format 🌍
+18. #downloading-earthquake-data 🌋
+19. #examining-geojson-data 🔍
+20. #making-a-list-of-all-earthquakes 🌎
+21. #extracting-magnitudes 📏
+22. #extracting-location-data 🌐
+23. #building-a-world-map 🗺️
+24. #representing-magnitudes 📊
+25. #customizing-marker-colors 🎨
+26. #other-color-scales 🌈
+27. #adding-hover-text 🖱️
+28. #exercise-16-6-refactoring ♻️
+29. #exercise-16-7-automated-title 🏆
+30. #exercise-16-8-recent-earthquakes 🌍🌋
+31. #exercise-16-9-world-fires 🔥
 
 Happy exploring! 🚀📈
+

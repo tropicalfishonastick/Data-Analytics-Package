@@ -4,37 +4,37 @@ Welcome to my Data Visualization with Python repository! In this collection, I'm
 
 ## Table of Contents 📜
 
-1. csv-file-format📁
-2. parsing-the-csv-file-headers 🧩
-3. extracting-and-reading-data 📖
-4. plotting-data-in-a-temperature-chart 🌡️
-5. the-datetime-module 🕒
-6. plotting-dates 📅
-7. plotting-a-longer-timeframe 📈
-8. plotting-a-second-data-series 📊
-9. shading-an-area-in-the-chart 🌕
-10. error-checking ❌
-11. downloading-your-own-data 🌐
-12. exercise-16-1-sitka-rainfall ☔
-13. exercise-16-2-sitka-death-valley-comparison 🌞🌡️
-14. exercise-16-3-san-francisco 🌉
-15. exercise-16-4-automatic-indexes 🔄
-16. exercise-16-5-explore 🔍
-17. mapping-global-datasets-geojson-format 🌍
-18. downloading-earthquake-data 🌋
-19. examining-geojson-data 🔍
-20. making-a-list-of-all-earthquakes 🌎
-21. extracting-magnitudes 📏
-22. extracting-location-data 🌐
-23. building-a-world-map 🗺️
-24. representing-magnitudes 📊
-25. customizing-marker-colors 🎨
-26. other-color-scales 🌈
-27. adding-hover-text 🖱️
-28. exercise-16-6-refactoring ♻️
-29. exercise-16-7-automated-title 🏆
-30. exercise-16-8-recent-earthquakes 🌍🌋
-31. exercise-16-9-world-fires 🔥
+1. The CSV File Format📁
+2. Parsing the CSV File Headers 🧩
+3. Printing the Headers and Their Positions 📋
+4. Extracting and Reading Data 📖
+5. Plotting Data in a Temperature Chart 🌡️
+6. The datetime Module 🕒
+7. Plotting Dates 📅
+8. Plotting a Longer Timeframe 📈
+9. Plotting a Second Data Series 📊
+10. Shading an Area in the Chart 🌕
+11. Error Checking ❌
+12. Downloading Your Own Data 🌐
+13. Exercise: Sitka Rainfall☔
+14. Exercise: Sitka-Death Valley Comparison 🌞🌡️
+15. Exercise: San Francisco 🌉
+16. Exercise: Automatic Indexes 🔄
+17. Exercise: Explore 🔍
+18. Mapping Global Datasets: GeoJSON Format 🌍
+19. Downloading Earthquake Data 🌋
+20. Examining GeoJSON Data 🔍
+21. Making a List of All Earthquakes 🌎
+22. Extracting Magnitudes 📏
+23. Extracting Location Data 🌐
+24. Building a World Map 🗺️
+25. Representing Magnitudes 📊
+26. Customizing Marker Colors 🎨
+27. Other Color Scales 🌈
+28. Adding Hover Text 🖱️
+29. Exercise: Refactoring ♻️
+30. Exercise: Automated Title 🏆
+31. Exercise: Recent Earthquakes 🌍🌋
+32. Exercise: World Fires 🔥
 
 Happy exploring! 🚀📈
-

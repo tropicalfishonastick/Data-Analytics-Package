@@ -1,6 +1,8 @@
 # My GitHub Data Visualization Adventure 🚀
 
-![GitHub Logo](https://img.icons8.com/?size=1x&id=52539&format=png&color=1A6DFF,C822FF)
+<div style="text-align:center;">
+   ![GitHub Logo](https://img.icons8.com/?size=1x&id=52539&format=png&color=1A6DFF,C822FF)
+</div>
 
 ## Learning Source: "Python Crash Course, 3rd Edition" 📘
 
